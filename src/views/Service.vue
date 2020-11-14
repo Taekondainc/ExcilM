@@ -1,7 +1,6 @@
 <template>
-<div class="about">
-    <h1>This is an about page</h1>
-    <div id="logocont">
+<div>
+    Services<div id="logocont">
 
         <router-link to="/">
             <img src="https://res.cloudinary.com/excil-marketing/image/upload/v1604813570/excil/gg2Asset_1_wqinfq.png">
@@ -10,3 +9,13 @@
     </div>
 </div>
 </template>
+
+<script>
+export default {
+
+}
+</script>
+
+<style lang="stylus" scoped>
+
+</style>

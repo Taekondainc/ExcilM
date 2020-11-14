@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@300;400;500;600&display=swap');
+html,body{margin: 0;
+  scroll-behavior: smooth;
+    background-image:url("https://res.cloudinary.com/excil-marketing/image/upload/v1605324802/excil/alex-kotliarskyi-QBpZGqEMsKg-unsplash_j8lstf.jpg");
+background-size: cover; background-color: #10121cfd;letter-spacing: 1.3px;
+}body{background-color: #10121c;
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}#app{font-family: 'Oswald', cursive;
+    margin: 0;}#logo{ 
+    width:11vw;margin-left:  -310px;
+}#menu{
+    width:50px;cursor: pointer;
+}#header{
+   /*background-color:#ffbf5d;*/
+margin:0px;}
+#menu-container{
+    margin: 0;width:70px;height:70px;text-align:center;display:grid;
+    align-content: center;justify-content:center;
+    vertical-align: middle;cursor: pointer;
+    background-color:white;
+}#menu-container2{font-family: 'Oswald', cursive;
+    margin: 0;width:50px;height:50px;text-align:center;display:grid;
+    align-content: center;justify-content:center;
+    vertical-align: middle;cursor: pointer;
+    background-color:white;
+}#social{
+    height:90%;margin:2px;
+}#container-social{
+    height:100%;
+}#logoimg{height: 70%;padding:10px;}
+#d-c{
+    text-align: center;display: flex;
+    justify-content: center;
+}
+#left{  background-color:#f15a24;height:70px;
+    float: right;position: absolute;right:0px;top:0;display: flex;flex-wrap: wrap; justify-content: center;align-content:center;
+}.btn-cta{padding:10px;font-size: 1.5vw;border-radius: 3px;display: grid;justify-content:center; vertical-align: middle;align-content: center;
+    margin-top: 30px;background-color:#f15a24;color:white;width: fit-content;font-family: 'Bebas Neue', cursive;letter-spacing: 1.5px;
+}.dheader{
+     background-color: #1c9454;
+     height: 50px;display: grid;
+     grid-template-columns: 20% 60% 20%;
+     grid-template-rows:50px ;text-align: center;
+     justify-content:center;
+     align-content:center;
+     vertical-align: middle;
+}.btndanger{
+   color:white;font-family: 'Bebas Neue', cursive;letter-spacing: 1.5px;
+   padding:10px;float: right;display: flex;
+     justify-content: center;
+     align-content:center;
+     vertical-align: middle;
+}.btndanger a{color:white; background-color: rgba(221, 0, 0, 0.945);padding:5px;display: flex;
+     justify-content: center;
+     align-content:center;
+     vertical-align: middle;}
+.home{height: 70vh;display: grid;justify-content: center;align-content:center;
+    text-align: center;padding-top:55px;
+}.bounce-enter-active {
+  animation: bounce-in .5s;
+}
+.bounce-leave-active {
+  animation: bounce-in .5s reverse;
+}
+@keyframes bounce-in {
+  0% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.banner{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 6vw;color:white;letter-spacing: 3px;font-weight: 500;
+}.banner1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 6vw;color:white;letter-spacing: 3px;font-weight: 500;
+}.banner2{
+    font-family: 'Bebas Neue', cursive;margin-right: 100px;
+    font-size: 8vw;color:white;letter-spacing: 3px;font-weight: 500;
+}.banner3{
+    font-family: 'Bebas Neue', cursive;text-align: left;padding-top: 20px;
+    font-size: 5vw;color:white;letter-spacing: 3px;font-weight: 500;
+}.banner4{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3vw;color:black;letter-spacing: 3px;font-weight: 700;
+    display:flex;justify-content: center;align-content:center;
+    vertical-align: middle;letter-spacing: 1.5px;
+}.banner5{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3vw;color:black;letter-spacing: 3px;font-weight: 700;
+    display:flex;justify-content: center;align-content:center;
+    vertical-align: middle;letter-spacing: 1.5px;position: absolute;right: 0;
+}.menulock{
+    padding:50px;
+}.d-center{
+    display: grid;width:100%;margin-top:20px;
+    grid-template-columns:35% 60%;grid-gap:10px;justify-content: center;align-content:center;text-align: center;vertical-align: middle;
+}
+.tagline{line-height: 0.5;
+    font-family: 'Oswald', cursive;font-weight: 400;text-align: center;display: grid;justify-content: center;
+    font-size: 2.4vw;color:white;letter-spacing: 3px;
+}#middle{
+    padding:15px; 
+   padding-left: 100px;
+   padding-right: 100px;font-family: 'Oswald', cursive;letter-spacing: 1.5px;
+}#text-cont{
+ background-image: url("https://res.cloudinary.com/excil-marketing/image/upload/v1604652796/excil/michal-mrozek-AP-OWtqJJeE-unsplash_zoitwp.jpg");
+background-size: cover;height: 80vh;padding:35px;padding-top:55px;padding-bottom:55px;
+}#context-midd{
+    background-color:black;
+    height: 100%;width:100%;display:flex;
+}#container2-mod{
+    padding: 50px;width:50%;color:white;
+}#picimg{
+    width: 80%;
+}#div-mod2{
+    display: grid;justify-content: center;align-content:center;vertical-align: middle;
+}#shortline{
+  width:140px;border: 2px solid white;line-height: 0;
+}#a-boxes{
+    width:40vw;height:70%;padding:20px;margin:10px;
+    background-color:white;margin-top:30px;
+}
+#h1-div{
+
+line-height: 30px;
+}#torso{text-align: center;display: grid;justify-content: center;align-content:center;
+    vertical-align: middle;font-family: 'Oswald', cursive;margin-top: 40px;letter-spacing: 1.5px;
+    height:100vh;
+}#wrapperdiv{
+    display: flex;flex-wrap: wrap;justify-content: center;
+}#midsection{
+    padding:60px;margin-bottom: 20px;
+}#orangesection{background-color:#f15a24;color:white;padding: 50px;}#orangesectimg{
+    width:40px;
+}#flex-or{
+    display: flex;flex-wrap: wrap;
+
+}#odivsecto{
+    margin-top: 20px; width:35vw;padding: 10px;font-family: 'Oswald', cursive;letter-spacing: 1.5px;
+    
+}#lastsection{
+    
+ padding:30px;margin-top: 340px;
+  background-color:#f15a24;
+  position: relative;z-index: 3;
+}
+
+#lastsection:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: -106px;z-index: 0;
+  width: 100%;
+  height:200px;
+ background-color:#f15a24;
+  -webkit-transform: skewY(8.5deg);
+  -moz-transform: skewY(8.5deg);
+  -ms-transform: skewY(8.5deg);
+  -o-transform: skewY(8.5deg);
+  transform: skewY(8.5deg);
+  -webkit-backface-visibility: hidden;
+}
+
+
+section {
+ position: relative;z-index: 3;
+ margin-top: -80px;
+ 
+}#shortline2{position: absolute;left: 0;
+  width:140px;border: 2px solid white;line-height: 0;
+}#circless{
+    background-color:white;
+   height:250px; width:250px;border-radius:50%;margin:20px;
+}#flex-or2{
+   display: flex;justify-content: space-evenly;align-content:center;
+    vertical-align: middle;text-align: left;padding:50px;
+
+}#footer{
+    background-color: #ffbf5d; margin-top: 40px;
+height: fit-content;
+}#footerimg{
+   height: 45px;
+}#ahref{text-decoration: none;
+    font-family: 'Bebas Neue', cursive;letter-spacing: 1.5px;
+    width:100%;;
+}#footerlink{
+    padding: 10px;margin:5px;text-align: center;
+    background-color: black;border-radius: 3px;
+    color:white;
+}#footercontainer{
+    display: grid;
+
+    width:35vw;padding:10px;
+  height: 80%;
+    grid-template-columns: auto auto auto;grid-gap: 10px;
+}#menucontainer{
+    display: grid;
+
+  height: 80%;
+    grid-template-columns: auto auto auto;grid-gap: 10px;
+}#bordhr{
+    border:2px solid black;
+}#bordhr2{
+    color:black;
+    background-color:black;width:95%;
+}#divgetdown{
+    padding:10px;display: flex;
+}#ahref a{text-decoration: none;}#footerhr{
+    display: grid;grid-template-columns: auto auto auto;
+}#footericons{
+    width:40px;
+}#footericon{
+    width:30px;
+}#footericon2{
+    width:60px;
+}#footericons2{
+    height: 60px;
+}#cicon{
+    height:60px;
+}#ftrdiv{
+    padding:5px; display: grid;
+    justify-content: left;
+    align-content:center;
+    vertical-align: middle;grid-template-columns: 100%;
+}#iconmiddle{
+    display: grid;
+    justify-content: left;
+    align-content:center;grid-template-columns: 100%;
+    vertical-align: middle;padding:5px;color:black;font-family: 'Bebas Neue', cursive;}
+#iconmiddle a{
+    width:100%;color:black;text-decoration:none;}
+    #linkftr{text-decoration: none;display:inline-block;
+    justify-content: center;
+    align-content:center;grid-template-columns: 100%;
+    vertical-align: middle;}.yellow{
+        background-color: #ffbf5d; position: fixed;top:0;color:black;width: 100%;height:100vh; display: grid;justify-content: center;grid-template-columns: 100%;
+    }#menushow{
+        text-align: center;padding:30px;
+    }#exit{
+        width:50px;cursor: pointer;
+    }#menudrag{
+        display: flex;justify-content: center;width:100%;
+    }#menudrag #iconmiddle{display:block; text-align:center;width:auto;height: auto;margin:15px;}#menu-container #ahref{
+        letter-spacing: 2px;
+    }#input-login{
+        border:2px solid black;
+
+    }.formcontent{
+        background:white;
+        display: grid;padding:20px;
+       grid-template-columns: 100%;width:30%;border-radius: 3px;font-family: 'Oswald', cursive;letter-spacing: 1.5px;
+    }
+    .login-cont{
+display: flex;
+justify-content: center;padding-top:100px;
+    
+    }.formcontent input {
+padding:10px;cursor: pointer;
+    }
+    #form-control{
+        padding-top:20px;
+    }#inputbtn{font-family: 'Oswald', cursive;letter-spacing: 1.5px;
+       margin-top:20px;padding: 15px;
+    }
+    #dashboard{
+        display: grid;position: fixed;grid-template-columns: auto auto;
+        top: 0;
+        left: 0;
+        width: 100%; background-color: #ffbf5d; z-index:2;height:100%
+    }.exitc{
+        grid-area: 1 / 1 / span 2 / span 3;
+    }#center{
+        text-align: center;color:white;
+    }#leftcont{
+        display: grid;
+        text-align: center;
+    }#contactform{color:white;background-color: #10121c; 
+        display: grid;font-family: 'Oswald', cursive;letter-spacing: 1.5px;
+        grid-gap:10px;width:80%;font-size:1em;text-align:left;border:2px solid white;
+        border-radius:3px;padding:10px;
+        
+    }#contactform input{
+            padding:10px;font-family: 'Oswald', cursive;letter-spacing: 1.5px;background:transparent;border:0px;
+            border-bottom:2px solid white; margin-bottom:10px;cursor: pointer;color:white;
+        }
+        #contactform input:focus{
+        border:0px;
+        }#formentry{
+            padding:10px;
+        }
+            #contactform textarea{
+            padding:10px;font-family: 'Oswald', cursive;letter-spacing: 1.5px;background:transparent;border:0px;
+            border-bottom:2px solid white; margin-bottom:10px;color:white;
+        }#inputbtn2{
+            background-color: #ffbf5d !important;
+            border:1px solid  #ffbf5d !important;border-radius:3px !important;font-family: 'Oswald', cursive;
+            letter-spacing: 1.5px;font-weight: 600;font-size: 20px;color:black !important;
+        }#h1edit{
+            margin:0;
+            margin-bottom:10px;
+        }#contcc{  background-color:#f15b249a;
+       display: flex;padding:40px;flex-wrap: wrap; align-content:center;justify-content:space-evenly;vertical-align: bottom;
+            color:rgb(255, 255, 255);letter-spacing: 1.5px;margin-top:60px;
+
+        }#iccont{
+           color:white; text-align:center;word-wrap: break-word;
+          
+        }#iccont a{
+              color:white; word-wrap: break-word;
+           }#map{
+               text-align:center;
+               padding:10px;
+
+           }#coverpic{display: grid;align-content:center;justify-content: center;
+        text-align: center;   height: 90vh;
+        }#coverpic2{display: grid;align-content:center;justify-content: center;
+        text-align: center;   height: 90vh;color:white;
+        }#wpwallpaper{width: 60%;}#logocont{background-color:#FFBC3D;
+            height:70px;width:70px;display: flex;
+            justify-content: center;align-content:center;
+            position: absolute;left: 0px;bottom: 0px;
+        }#wpwallpaper2{width: 30%;}#logocont{background-color:#FFBC3D;
+            height:70px;width:70px;display: flex;
+            justify-content: center;align-content:center;
+            position: absolute;left: 0px;bottom: 0px;
+        }#logocont img{ width:100%;}#logocont a{
+            display: flex;
+  align-items: center;
+  justify-content: center;
+        } #h1{text-align:left;padding-left:50px;margin:0;font-family: 'Bebas Neue', cursive;
+            font-size: 12vw;color:#FFBC3D;letter-spacing: 4.5px;
+        } #h2{text-align:right;padding-right:50px;margin:0;font-family: 'Bebas Neue', cursive;
+            font-size: 12vw;color:#FFBC3D;letter-spacing: 4.5px;
+        }#privacy{
+            color:white;padding: 30px;letter-spacing: 2px;
+        }#privacy p {
+            font-family: 'Oswald', cursive; 
+        }#privacy a{color:yellow;}#prrpa{
+            width:1005;white-space: wrap;
+    word-break: break-word;
+        }
